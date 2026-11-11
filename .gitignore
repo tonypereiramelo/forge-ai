@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets, trained model artifacts and logs
+/data/
+/models/
+/logs/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and OS temporary files
+.vscode/*.log
+.DS_Store
+Thumbs.db
